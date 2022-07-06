@@ -14,12 +14,12 @@
 .float02 .des{float: left; width: 50%; padding: 0 15px;}
 .float02 figure{float: right; width: 50%; padding: 0 15px;}
 
-@media (max-width:768px){
-    .header{display: none;}
+@media (max-width: 768px) {
+    .header { display: none; }
 
-    .float02{padding: 100px 0; background: #f1f1f1;}
-    .float02 .container{width: auto; margin: 0 auto;}
-    .float02 .container::after{content: ""; display: block; clear: both;}
-    .float02 .des{float: none; width: 100%; padding: 0 15px;}
-    .float02 figure{float: none; width: 100%; padding: 0 15px;}
+    .float02 { padding: 100px 0; background: #f1f1f1; }
+    .float02 .container { width: auto; margin: 0 auto; }
+    .float02 .container::after { content:""; display: block; clear: both; }
+    .float02 .des { float: none; width: 100%; padding: 0 15px; }
+    .float02 figure { float: none;  width: 100%; padding: 0 15px; }
 }
