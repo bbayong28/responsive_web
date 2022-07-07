@@ -9,7 +9,7 @@ $(function () {
         if ($(window).width() < 769) {
             event.preventDefault();
             $('.smenu').hide();
-            $(this).next().show(1000);
+            $(this).next().show();
             //$(this).next().slideToggle();
         }
 
